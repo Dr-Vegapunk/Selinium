@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locator Basics Demo</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        input, button, a {
+            display: block;       /* Each element on a new line */
+            margin: 5px 0;        /* Small spacing for clarity */
+        }
+
+        input, button {
+            padding: 5px;         /* Slight padding to make them clickable */
+        }
+    </style>
+</head>
+<body>
+    <h1>Locator Basics Demo</h1>
+
+    <!-- Inputs -->
+    <input id="username" name="user" class="input-field" type="text" placeholder="Enter Username">
+    <input id="password" name="pass" class="input-field" type="password" placeholder="Enter Password">
+    <input name="email" type="email" placeholder="Enter Email">
+
+    <!-- Buttons -->
+    <button id="loginBtn" class="btn primary">Login</button>
+    <button class="btn secondary">Cancel</button>   
+
+    <!-- Links -->
+    <a href="#" id="forgotLink">Forgot Password?</a>    
+    <a href="#" class="help-link">Help</a>
+
+</body>
+</html>
+----------css selectors-----------
+#username                /* ID */
+.input-field             /* Class */
+input                     /* Tag */
+button.primary            /* Tag + Class */
