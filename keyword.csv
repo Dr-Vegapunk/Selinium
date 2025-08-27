@@ -1,0 +1,9 @@
+keyword,locator,value
+enter-text,user-name,standard_user
+enter-text,password,secret_sauce
+click,login-button
+logout,,
+enter-text,user-name,performance_glitch_user
+enter-text,password,secret_sauce
+click,login-button
+logout,,
